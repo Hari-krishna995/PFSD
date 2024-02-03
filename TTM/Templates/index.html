@@ -1,0 +1,18 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tourism Travel Management</title>
+    <link type="text/css" rel="stylesheet" href="{% static 'CSS/style.css' %}" >
+
+</head>
+<body>
+<a href="{% url 'Login' %}">Login | </a>
+<a href="{% url '' %}">Home</a>
+<br>
+{% block b1 %}
+<h2 align="center"><font color="blue"> KLU Tourism & Travel Management</font> </h2>
+<br>
+{% endblock %}
+</body>
+</html>
